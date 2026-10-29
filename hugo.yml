@@ -1,0 +1,33 @@
+baseURL = "https://polina_bogor30.github.io/writeups/"
+languageCode = "ru-ru"
+title = "Мои Write-up'ы"
+theme = "PaperMod"
+
+[params]
+  author = "Ваше Имя"
+  description = "Решения заданий level0-level6"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+  showtoc = true
+
+[params.homeInfoParams]
+  Title = "Write-up'ы по заданиям"
+  Content = "Здесь публикуются решения заданий."
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/ВАШ_ЛОГИН"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Write-ups"
+    url = "/posts/"
+    weight = 10
+
+[taxonomies]
+  tag = "tags"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
